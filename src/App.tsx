@@ -1,3 +1,4 @@
+import profileImg from "./assets/profile.jpg";
 export default function PortfolioSite() {
   const skills = [
     "Customer Service",
@@ -306,7 +307,7 @@ export default function PortfolioSite() {
             </div>
 
             <div className="card side">
-              <div className="avatar"><img src="/src/assets/profile.jpg" className="avatar" /></div>
+              <div className="avatar"><img src={profileImg} alt="Profile" className="avatar" /></div>
               <h3>Profile Summary</h3>
               <div className="muted">Open to new opportunities</div>
               <div className="info-list">
