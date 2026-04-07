@@ -1,4 +1,5 @@
 import profileImg from "./assets/profile.jpg";
+import { Mail, Github, Linkedin, MapPin } from "lucide-react";
 export default function PortfolioSite() {
   const skills = [
     "Customer Service",
@@ -252,6 +253,7 @@ export default function PortfolioSite() {
           background: linear-gradient(135deg, rgba(15,23,42,0.92), rgba(30,41,59,0.92));
           padding: 32px;
         }
+        
         .contact-box p:first-child {
           color: #94a3b8;
           font-size: 14px;
@@ -378,19 +380,23 @@ export default function PortfolioSite() {
               </p>
               <div className="grid-4">
                 <div className="card contact-box">
-                  <p>Email</p>
-                  <p>guilhermearaujove69@gmail.com</p>
+                  <p>📧 Email</p>
+                  <a href="mailto:guilhermearaujove69@gmail.com">Send Email</a>
                 </div>
                 <div className="card contact-box">
-                  <p>LinkedIn</p>
-                  <p>linkedin.com/in/guilherme-araujo-sec/</p>
+                  <p>💼 LinkedIn</p>
+                  <a href="https://linkedin.com/in/guilherme-araujo-sec/" target="_blank" rel="noopener noreferrer">
+                    View LinkedIn Profile
+                  </a>
                 </div>
                 <div className="card contact-box">
-                  <p>GitHub</p>
-                  <p>github.com/GuilhermeArauujo</p>
+                  <p>💻 GitHub</p>
+                  <a href="https://github.com/GuilhermeArauujo" target="_blank" rel="noopener noreferrer">
+                    View GitHub Profile
+                  </a>  
                 </div>
                 <div className="card contact-box">
-                  <p>Location</p>
+                  <p>📍 Location</p>
                   <p>Brisbane, Australia</p>
                 </div>
               </div>
