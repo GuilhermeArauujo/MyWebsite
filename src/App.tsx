@@ -1,5 +1,4 @@
 import profileImg from "./assets/profile.jpg";
-import { Mail, Github, Linkedin, MapPin } from "lucide-react";
 export default function PortfolioSite() {
   const skills = [
     "Customer Service",
